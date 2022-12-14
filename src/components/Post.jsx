@@ -56,7 +56,7 @@ export function Post() {
         <textarea placeholder="Comente aqui" name="comment" />
 
         <footer>
-          <button onClick={handleNewComment} type="button">
+          <button onClick={handleNewComment} type="submit">
             Comentar
           </button>
         </footer>
